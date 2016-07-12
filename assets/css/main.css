@@ -262,7 +262,7 @@ blockquote cite:before {
 
 /* Links */
 a {
-    color: #3498db;
+    color: #89bdd3;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -274,9 +274,19 @@ a {
 
 a:hover,
 a:focus {
-    color: #c0392b;
+    color: #b2e2ef;
     text-decoration: none;
     outline: 0;
+}
+
+input[type=submit] {
+    background-color: #89bdd3;
+    border:0px;
+}
+
+input[type=submit]:hover {
+    background-color: #b2e2ef;
+    border:0px;
 }
 
 a:before,
