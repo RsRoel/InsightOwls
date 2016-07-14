@@ -360,6 +360,25 @@ a:after {
 	text-shadow: 1px 1px 1px #000;
 }
 
+#headerlogo {
+    text-align: middle;
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+#partner {
+    background: #e3e3e3;
+    width:100%;
+}
+
+#partnerlogo {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
 #greywrap {
 	background: #89bdd3;
 	margin-top: 0px;
