@@ -18,7 +18,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #6b6b6b;
 }
 
 body {
@@ -53,7 +53,7 @@ body {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #53b2da;
     margin: 1em 0;
     padding: 0;
 }
@@ -145,7 +145,7 @@ hr:before {
     left: 25%;
     width: 50%;
     height: 2px;
-    background: #ccc;
+    background: white;
 }
 
 a img {
@@ -154,24 +154,7 @@ a img {
 
 .odd a img {
     background: #f5f5f5;
-}
-#country-select {
-    font-family: "Raleway";
-    font-weight: 300;
-    font-size: 12px;
-    color: #999;
-    float: right;
-    margin-top: 15px;
-    margin-right: 15px;
-}
 
-#country-options {
-    font-family: "Raleway";
-    font-weight: 300;
-    color: #999;
-    background-color: #2b2b2b;
-    border-radius: 5px;
-    border-color: #999;
 }
 
 /* Titles */
@@ -262,7 +245,7 @@ blockquote cite:before {
 
 /* Links */
 a {
-    color: #89bdd3;
+    color: #53b2da;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -280,7 +263,7 @@ a:focus {
 }
 
 input[type=submit] {
-    background-color: #89bdd3;
+    background-color: #53b2da;
     border:0px;
 }
 
@@ -326,13 +309,13 @@ a:after {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color: white;
 	padding-top: 175px;
     padding-right: 125px;
 }
 
 #headerwrap h6 {
-    color:#ffffff;
+    color:white;
     padding-top: 40px;
     padding-bottom: 40px;
     letter-spacing: 8px;
@@ -341,7 +324,7 @@ a:after {
 }
 
 #headerwrap h2 {
-    color:#ffffff;
+    color:white;
     padding-bottom: 100px;
     letter-spacing: 8px;
     font-size: 30px;   
@@ -350,7 +333,7 @@ a:after {
 }
 
 #headerwrap p {
-	color:#ffffff;
+	color: white;
 	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
@@ -380,7 +363,7 @@ a:after {
     
 }
 #greywrap {
-	background: #89bdd3;
+	background: url(/assets/img/bg/divider1.jpg);
 	margin-top: 0px;
 	padding-top: 40px;
 	border-bottom: 1px solid #ddd;
@@ -403,7 +386,7 @@ a:after {
 
 }
 
-#greywrap .icon {
+#process .icon {
 	font-size: 60px;
 	line-height: 30px;
 	margin-bottom: 10px;
@@ -447,7 +430,7 @@ a:after {
 }
 
 #footerwrap {
-	background: #2b2b2b;
+	background: #53b2da;
 	margin-top: 0px;
 	padding-top: 40px;
 	padding-bottom: 20px;
@@ -524,16 +507,16 @@ a:after {
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/bg/divider1.jpg')
 }
 
 .divider3 {
-	background-image: url('../img/bg/divider3.jpg');
+	background-image: url('../img/bg/divider1.jpg');
 	margin-top: 0px;
 }
 
 .divider4 {
-	background-image: url('../img/bg/divider4.jpg')
+	background-image: url('../img/bg/divider1.jpg')
 }
 
 .divider6 {
@@ -571,7 +554,7 @@ a:after {
 }
 
 .service-active .service-trigger {
-    background: #222;
+    background: #6b6b6b;
 }
 
 .service-active p {
@@ -611,7 +594,7 @@ a:after {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	color: #fff;
+	color: white;
 	background: #3498db;
 }
 
@@ -620,7 +603,7 @@ a:after {
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-bottom: 5px;
-	color: #fff;
+	color: white;
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
@@ -633,7 +616,7 @@ a:after {
 	margin-left: 20px;
 	display: inline-block;
 	background: #2f2f2f;
-	color: #fff;
+	color: white;
 	font-size: 13px;
 }
 
